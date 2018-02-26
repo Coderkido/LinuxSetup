@@ -18,6 +18,8 @@ Copy the .vimrc into ~/  (Need to add powerline)
 
 ---
 ## Aesthetics
+![alt text][desktop]
+
 
 #### Arc-Theme + Papirus Icons
 To install [Arc](https://github.com/horst3180/arc-theme):
@@ -46,3 +48,6 @@ If using Gnome, open the tweak-tool and set the theme. For the shell, install th
  sudo apt-get install chrome-gnome-shell
  ```
  Additionally will need to install the [firefox plugin](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
+
+
+ [desktop]: https://github.com/Coderkido/LinuxSetup/blob/master/Images/Desktop.png?raw=true "Gnome Desktop with Arc Dark"
