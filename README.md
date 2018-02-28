@@ -1,10 +1,17 @@
 # LinuxSetup
 
 #### Applications
-git docker python-pip make curl [jq](https://stedolan.github.io/jq/)
+[git](https://help.ubuntu.com/lts/serverguide/git.html)
+[docker](https://www.docker.com/)
+[python-pip](https://pypi.python.org/pypi/pip)
+curl
+make
+net-tools
+[jq](https://stedolan.github.io/jq/)
 ```
-sudo apt-get install git docker python-pip curl make jq
+sudo apt-get install git docker python-pip curl make net-tools jq
 ```
+setuptools
 ```
 pip install setuptools
 ```
@@ -48,6 +55,13 @@ If using Gnome, open the tweak-tool and set the theme. For the shell, install th
  sudo apt-get install chrome-gnome-shell
  ```
  Additionally will need to install the [firefox plugin](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
+
+---
+## Docker Setups
+
+#### Node-Red
+
+
 
 
  [desktop]: https://github.com/Coderkido/LinuxSetup/blob/master/Images/Desktop.png?raw=true "Gnome Desktop with Arc Dark"
