@@ -1,0 +1,1 @@
+fortune -s| cowsay -f $(ls /usr/share/cowsay/cows/ | shuf -n 1) | lolcat -a -d 20 -s 10000
